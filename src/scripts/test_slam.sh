@@ -1,6 +1,6 @@
 #!/bin/bash
 
-xterm  -e " export TURTLEBOT_GAZEBO_WORLD_FILE=/home/robond/workspace/final_ws/src/map/my.world " &
+xterm  -e " export TURTLEBOT_GAZEBO_WORLD_FILE=$(rospack find add_markers)/../map/my.world " &
 sleep 5
 xterm  -e " roslaunch turtlebot_gazebo turtlebot_world.launch " &
 sleep 10
