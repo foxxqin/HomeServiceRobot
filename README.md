@@ -1,5 +1,14 @@
 # HomeServiceRobot
 
+Project Package Explained:
+
+add_markers - includes 2 nodes: add_markers_node is for the home service function; add_markers is for create virtual object check.
+pick_objects - allow robot to automatically navigate to the pickup zone and wait for 5 seconds then navigate to the dropoff zone.
+slam_gmapping - mapping the world.
+turtlebot_gazebo - simulate the turtlebot robot in predefined world.
+turtlebot_interactions - Visualizing TurtleBot in RViz.
+turtlebot_teleop - control the robot with keyboard.
+
 How to use:
 
 1. Clone the entire solution or download the files into local ROS workspace, for example ~/catkin_ws folder.
